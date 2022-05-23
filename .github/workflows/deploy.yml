@@ -102,7 +102,7 @@ jobs:
           useLockFile: false
 
       - name: ⚙️ Build
-        run: npm run build
+        run: npm run generate:css && npm run build
 
       - name: 🌳 Cypress run
         uses: cypress-io/github-action@v3
