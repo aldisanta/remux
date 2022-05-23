@@ -1,0 +1,21 @@
+# dependencies
+/node_modules
+/node_modules_bak
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/cypress/screenshots
+/cypress/videos
+
+# production
+/.cache
+/build
+/public/build
+/app/styles/tailwind.css
+
+# misc
+.DS_Store
+*.pem
+*.creds
